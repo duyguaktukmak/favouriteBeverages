@@ -1,0 +1,101 @@
+img {
+  border-style: none;
+  height: 500px;
+  width: 100%;
+}
+
+.beverage {
+  width: 66.67%;
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  display: block;
+  margin: auto;
+}
+
+#top {
+  color: white;
+  background-color: white;
+  align-items: center;
+  background-image: url("../images/main-page.png");
+  background-size: cover;
+  background-position: top;
+  height: 500px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#profile img {
+  border-radius: 50%;
+  width: 100px;
+  border: 1px white;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+#profile {
+  margin-top: -75px;
+}
+
+#profile-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+#profile-text :first-child {
+  font-weight: bold;
+}
+#profile-text :last-child {
+  font-style: italic;
+}
+
+#top p {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  margin: auto;
+  width: 780px;
+}
+
+#recommendation{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#beverage-h2 {
+  font-family: "Roboto Slab", sans-serif;
+  color: rgb(51, 51, 51);
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+#beverage-h2 span {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.beverage p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(51, 51, 51);
+  font-size: 18px;
+  line-height: 32px;
+}
+
+#beverage-img{
+    margin-bottom: 60px;
+}
+
+a {
+  color: #42b4d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
